@@ -1,5 +1,7 @@
 package com.example.PetitionsProject;
 
+import com.example.PetitionsProject.beans.PrototypeBean;
+import com.example.PetitionsProject.beans.SingletonBean;
 import com.example.PetitionsProject.repository.PetitionRepository;
 import com.example.PetitionsProject.service.PetitionService;
 import com.example.PetitionsProject.service.impl.PetitionServiceImplementation;
@@ -15,16 +17,8 @@ public class PetitionsProjectApplication {
 		SpringApplication.run(PetitionsProjectApplication.class, args);
 	}
 	@Bean
-	@Scope("singleton")
-	public PetitionService petitionServiceSingleton(PetitionRepository petitionRepository) {
-		return new PetitionServiceImplementation(petitionRepository);
-	}
-
-	@Bean
-	@Primary
 	@Scope("prototype")
-	public PetitionService petitionServicePrototype(PetitionRepository petitionRepository) {
-		return new PetitionServiceImplementation(petitionRepository);
+	public PrototypeBean prototypeBean() {
+		return new PrototypeBean();
 	}
-
 }

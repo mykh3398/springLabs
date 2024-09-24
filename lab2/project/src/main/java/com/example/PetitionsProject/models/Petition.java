@@ -25,6 +25,4 @@ public class Petition {
     private String title;
     private String text;
 
-    //private int[] votes_limit = {1000, 5000, 25000};
-    //private int timePeriodInDays = 30;
 }

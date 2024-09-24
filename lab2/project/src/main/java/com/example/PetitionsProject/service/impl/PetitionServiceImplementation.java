@@ -5,6 +5,7 @@ import com.example.PetitionsProject.models.Petition;
 import com.example.PetitionsProject.repository.PetitionRepository;
 import com.example.PetitionsProject.service.PetitionService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,10 +17,6 @@ import static com.example.PetitionsProject.mappers.PetitionMapper.mapToPetitionD
 @Service
 public class PetitionServiceImplementation implements PetitionService {
     private PetitionRepository petitionRepository;
-    @Autowired // Ін’єкція через конструктор
-    public PetitionServiceImplementation(PetitionRepository petitionRepository){
-        this.petitionRepository = petitionRepository;
-    }
     @Autowired // Ін’єкція через сеттер
     public void setPetitionRepository(PetitionRepository petitionRepository) {
         this.petitionRepository = petitionRepository;

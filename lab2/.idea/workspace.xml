@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78bf0238-fd33-4692-829f-5c063b4d7d3a" name="Changes" comment="Petition creation page added">
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/Algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/Lab5/Lab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/coursera/lol/lol.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab2/lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab3/lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab3_klubnichka/lab3_klubnichka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab4/lab4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab6/lab6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab7/lab7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab8/lab8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab_6/lab_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab_6/target/classes/lab_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab_6/target/classes/target/classes/lab_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab_6/target/classes/target/classes/target/classes/lab_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/lab_7/lab_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/sorts/Main/Main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/Algorithms/sorts/radixSort_O_n_k/radixSort_O_n_k.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/demoWeb/demoWeb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/lab_8_ta/lab_8_ta.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/programming/Java/2_Semester/lab10/lab10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/programming/Java/2_Semester/lab_11/lab_11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/programming/Java/2_Semester/lab_12/lab_12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/programming/Java/2_Semester/lab_8/lab_8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/programming/Java/2_Semester/lab_9/lab_9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/programming/Java/codewars/Split/Split.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/кпі(/Algorithms/lab3/lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../1course/курсач/MovieDataBase/MovieDataBase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_lab2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/example/PetitionsProject/PetitionsProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/example/PetitionsProject/beans/PrototypeBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/example/PetitionsProject/beans/SingletonBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/example/PetitionsProject/controllers/BeanScopesDemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/example/PetitionsProject/controllers/PetitionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/example/PetitionsProject/dto/PetitionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/example/PetitionsProject/mappers/PetitionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/example/PetitionsProject/models/Petition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/example/PetitionsProject/repository/PetitionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/example/PetitionsProject/service/PetitionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/example/PetitionsProject/service/impl/PetitionServiceImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/jarStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/js/jarScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/bean-scopes-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/blocks/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/blocks/jar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/blocks/subheader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/petition-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/petition-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/petition-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/petitions-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/test/java/com/example/PetitionsProject/PetitionsProjectApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/~$_lab2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../programming/Java/codewars/artem/artem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../trash/Лабораторна робота 3/untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../trash/Лабораторна робота 3/Лабораторна робота 3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PetitionsProject/PetitionsProjectApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PetitionsProject/beans/PrototypeBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PetitionsProject/beans/SingletonBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PetitionsProject/controllers/BeanScopesDemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PetitionsProject/controllers/PetitionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PetitionsProject/dto/PetitionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PetitionsProject/mappers/PetitionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PetitionsProject/models/Petition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PetitionsProject/repository/PetitionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PetitionsProject/service/PetitionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PetitionsProject/service/impl/PetitionServiceImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/jarStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jarScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bean-prototype.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bean-scopes-demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bean-singleton.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/jar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/subheader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/petition-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/petition-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/petition-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/petitions-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/PetitionsProject/PetitionsProjectApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2jdvc56UXhP6w1FFK9FNQ9PEWQp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/mickle/Desktop/kpi/3course/1_semester/spring/lab2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "394e0a956429529c9b02cb3a8460a3b4",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.PetitionsProject.beans" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mickle\Desktop\projects\PetitionsProject\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mickle\Desktop\projects\PetitionsProject\src\main\resources\static\css" />
+      <recent name="C:\Users\mickle\Desktop\projects\PetitionsProject\src\main\resources\static" />
+      <recent name="C:\Users\mickle\Desktop\projects\PetitionsProject\src\main\resources\templates\blocks" />
+      <recent name="C:\Users\mickle\Desktop\projects\PetitionsProject\src\main\resources\static\styles" />
+      <recent name="C:\Users\mickle\Desktop\projects\PetitionsProject\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PetitionsProjectApplication">
+    <configuration name="PetitionsProjectApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab2Project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.PetitionsProject.PetitionsProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetitionsProjectApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="PetitionsProject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.PetitionsProject.PetitionsProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetitionsProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="PetitionsProject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.PetitionsProject.PetitionsProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78bf0238-fd33-4692-829f-5c063b4d7d3a" name="Changes" comment="" />
+      <created>1721729844592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721729844592</updated>
+      <workItem from="1727117283619" duration="8147000" />
+      <workItem from="1727185761478" duration="7074000" />
+      <workItem from="1727193221085" duration="6654000" />
+    </task>
+    <task id="LOCAL-00001" summary="Petition creation page added">
+      <created>1722249444276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722249444276</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Petition creation page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Petition creation page added" />
+  </component>
+</project>

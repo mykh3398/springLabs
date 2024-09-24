@@ -17,7 +17,8 @@
             <p>
                 The singleton bean will retain the same instance across the entire Spring context.
             </p>
-            <p>Bean HashCode: <strong th:text="${singletonBeanHashCode}"></strong></p>
+            <p>Bean1 HashCode: <strong th:text="${singletonBeanHashCode1}"></strong></p>
+            <p>Bean2 HashCode: <strong th:text="${singletonBeanHashCode2}"></strong></p>
         </div>
 
         <!-- Prototype Scope -->
@@ -26,7 +27,8 @@
             <p>
                 Each time a prototype bean is requested, a new instance will be created.
             </p>
-            <p>Bean HashCode: <strong th:text="${prototypeBeanHashCode}"></strong></p>
+            <p>Bean HashCode3: <strong th:text="${prototypeBeanHashCode1}"></strong></p>
+            <p>Bean HashCode4: <strong th:text="${prototypeBeanHashCode2}"></strong></p>
         </div>
     </div>
 

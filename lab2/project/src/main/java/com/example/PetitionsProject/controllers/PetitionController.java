@@ -5,6 +5,7 @@ import com.example.PetitionsProject.models.Petition;
 import com.example.PetitionsProject.service.PetitionService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -14,23 +15,13 @@ import java.util.List;
 
 @Controller
 public class PetitionController {
-    //@Autowired // Ін’єкція напряму у поле
     private PetitionService petitionService;
-    private final PetitionService petitionServiceSingleton;
-    private final PetitionService petitionServicePrototype;
+    // Ін’єкція через конструктор
     @Autowired
-    public PetitionController(PetitionService petitionService, PetitionService petitionServiceSingleton, PetitionService petitionServicePrototype) {
-        this.petitionServiceSingleton = petitionServiceSingleton;
-        this.petitionServicePrototype = petitionServicePrototype;
+    public PetitionController(PetitionService petitionService) {
         this.petitionService = petitionService;
     }
 
-    @GetMapping("/petitions/scope")
-    public String beanScopesDemo(Model model) {
-        model.addAttribute("singletonBean", petitionServiceSingleton);
-        model.addAttribute("prototypeBean", petitionServicePrototype);
-        return "bean-scopes-demo";
-    }
     @GetMapping("/petitions")
     public String listPetitions(Model model){
         List<PetitionDto> petitions = petitionService.findAllPetitions();
