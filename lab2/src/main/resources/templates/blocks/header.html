@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Header</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+</head>
+<body>
+<header class="p-3 bg-dark text-white mb-2">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand d-flex align-items-center" href="/petitions">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                    <use xlink:href="#bootstrap"/>
+                </svg>
+                <span class="fs-4"><i>петиції.jar</i></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a th:href="@{/about}" class="nav-link px-2 text-secondary">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-2 text-white bg-primary rounded" href="/petitions/add">Create Petition<i class="bi bi-plus-circle ms-1"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a th:href="@{/bean-scopes-demo}" class="nav-link px-2 text-secondary">Beans demo</a>
+                    </li>
+
+                </ul>
+                <div class="d-flex">
+                    <a th:href="@{/login}" class="btn btn-outline-light me-2">Login</a>
+                    <a th:href="@{/register}" class="btn btn-outline-warning me-2">Sign-up</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Offcanvas Sidebar -->
+    <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a href="/petitions" class="nav-link px-2 text-white">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a th:href="@{/about}" class="nav-link px-2 text-white">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-2 text-white bg-primary rounded" href="/petitions/add">Create Petition<i class="bi bi-plus-circle ms-1"></i></a>
+                </li>
+            </ul>
+            <hr class="my-4">
+            <!-- Вставка сайдбару для мобільних пристроїв -->
+            <div class="mt-4">
+                <h5>Сортувати</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" id="sortDate" class="nav-link px-2 text-white">За зворотною хронологією</a></li>
+                    <li><a href="#" id="sortVotes" class="nav-link px-2 text-white">За кількістю голосів</a></li>
+                    <li><a href="#" id="sortNumber" class="nav-link px-2 text-white">За номером</a></li>
+                    <li><a href="#" id="sortTopic" class="nav-link px-2 text-white">За темою</a></li>
+                </ul>
+
+                <h5 class="mt-4">Тематика</h5>
+                <ul class="list-unstyled">
+                    <li th:each="topic : ${topics}">
+                        <a th:text="${topic.name}" href="#" class="nav-link px-2 text-white"></a>
+                    </li>
+                </ul>
+
+                <h5 class="mt-4">Packs</h5>
+                <ul class="list-unstyled">
+                    <li th:each="pack : ${packs}">
+                        <a th:text="${pack.name}" href="#" class="nav-link px-2 text-white"></a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-4">
+            <div class="d-flex flex-column">
+                <a th:href="@{/login}" class="btn btn-outline-light mb-2">Login</a>
+                <a th:href="@{/register}" class="btn btn-outline-warning mb-2">Sign-up</a>
+                <a th:href="@{/profile}" class="btn btn-outline-light mb-2">Profile</a>
+                <a th:href="@{/logout}" class="btn btn-outline-danger">Logout</a>
+            </div>
+
+
+        </div>
+    </div>
+
+</header>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-QwrthKtfbv9pXgrKP7e1g/1Ogshe7HS1D9ra0l0Z8GJbnht/FU5tM6by/od1HPX9" crossorigin="anonymous"></script>
+</body>
+</html>
